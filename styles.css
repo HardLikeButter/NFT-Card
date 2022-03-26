@@ -57,7 +57,8 @@ p {
 
 /* //////////////////////////////////////////////// */
 
-    /* Styling */
+    /* Styling */    
+
 
 body {
     height: 100vh;
@@ -220,3 +221,17 @@ img {
     color: var(--primeC-Cyan);
 }
 
+@media (max-width: 275px) {
+    .icon-flex {
+        flex-direction: column;
+        gap: .3em;
+    }
+
+    .card-heading {
+        text-align: center;
+    }
+
+    .card-description {
+        text-align: center;
+    }
+}
